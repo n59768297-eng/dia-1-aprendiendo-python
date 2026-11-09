@@ -1,0 +1,8 @@
+print("--- Calculadora de Año de Nacimiento ---")
+nombre = input("¿Cómo te llamas?: ")
+edad = input("¿Cuál es tu edad?: ")
+ano_actual = input("¿En qué año estamos?: ")
+
+ano_nacimiento = int(ano_actual) - int(edad)
+
+print("Hola " + nombre + ", naciste en el año:", ano_nacimiento)
